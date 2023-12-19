@@ -1,0 +1,10 @@
+[18-Dec-2023 05:39:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method ElementorPro\Core\Utils::_unstable_check_document_permissions() in /Users/johnpaulsaia/Local Sites/john-paul-saia/app/public/wp-content/plugins/elementor-pro/modules/payments/module.php:150
+Stack trace:
+#0 [internal function]: ElementorPro\Modules\Payments\Module->get_stripe_tax_rates(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 /Users/johnpaulsaia/Local Sites/john-paul-saia/app/public/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /Users/johnpaulsaia/Local Sites/john-paul-saia/app/public/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 /Users/johnpaulsaia/Local Sites/john-paul-saia/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Users/johnpaulsaia/Local Sites/john-paul-saia/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/johnpaulsaia/Local Sites/john-paul-saia/app/public/wp-admin/admin-ajax.php(188): do_action('wp_ajax_element...')
+#6 {main}
+  thrown in /Users/johnpaulsaia/Local Sites/john-paul-saia/app/public/wp-content/plugins/elementor-pro/modules/payments/module.php on line 150
